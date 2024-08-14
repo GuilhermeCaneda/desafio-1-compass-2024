@@ -3,6 +3,19 @@ body{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 #form-registration-container{
     width: 100%;
     overflow: hidden;
@@ -20,6 +33,7 @@ body{
     top: 0;
     right: 0;
 }
+
 #form-white-line{
     bottom: 0rem;
     left: 0;
@@ -50,6 +64,7 @@ body{
     line-height: 5.685rem;
     color: #fff;
 }
+
 #form-scope > p{
     font-size: 1.3rem;
     font-weight: 500;
@@ -66,6 +81,7 @@ form{
     align-items: center; /*VOLTAR AQUI*/
     gap: 5.1rem;
 }
+
 form > button{
     width: 19.3rem;
     height: 5.7rem;
@@ -105,6 +121,7 @@ form > button{
     align-items: flex-start;
     width: 100%;
 }
+
 .form-input-card > p{
     font-size: 1.4rem;
     font-weight: 500;
@@ -114,6 +131,7 @@ form > button{
     color: #4F4F4F;
     height: 2.5rem;
 }
+
 .form-input-card > input{
     width: 100%;
     height: 5.6rem;
@@ -142,4 +160,136 @@ form > button{
     resize: none; 
     vertical-align: top; 
     font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+#loremipsum-container{
+    padding-top: 15rem;
+    padding-bottom: 14.8rem;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 7.4rem;
+}
+
+#loremipsum-scope{
+    width: 117rem;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3.2rem;
+}
+
+#loremipsum-scope > h3{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 5.625rem;
+    color: #fff;
+}
+
+#loremipsum-scope > p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 3rem;
+    text-align: left;
+    width: 54.5rem;
+    height: 5.7rem;
+    color: #fff;
+}
+
+#loremipsum-card{
+    width: 117rem;
+    height: 18.9rem;
+    border-radius: 1.5rem;
+    background: #1C140F;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4.232rem;
+}
+
+#loremipsum-desc{
+    width: 63.6rem;
+    height: 10.7rem;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+}
+
+#loremipsum-desc > h3{
+    font-family: Poppins;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 4.5rem;
+    text-align: left;
+    color: #fff;
+}
+
+#loremipsum-desc > p{
+    font-family: Poppins;
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 2.55rem;
+    text-align: left;
+    color: #fff;
+    width: 53.6rem;
+    margin-bottom: -0.5rem;
+
+}
+
+#loremipsum-inputgroup{
+    width: 38.568rem;
+    height: 4.8rem;
+    border-radius: 0.8rem;
+    opacity: 0px;
+    background-color: #fff;
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#loremipsum-inputgroup > input{
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.95rem;
+
+    margin-left: 2.055rem;
+    width: 15.51rem;
+    height: 2rem;
+}
+
+#loremipsum-inputgroup > input:focus{
+    outline: none;
+    border: none;
+}
+
+
+#loremipsum-inputgroup > button{
+    width: 10.5rem;
+    height: 3.7rem;
+    border-radius: 0.8rem;
+    background: #DC7000;
+
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.95rem;
+    text-align: center;
+    color: #fff;
+
+    margin-right: 0.974rem;
 }
