@@ -427,3 +427,86 @@ body{
 
 
 
+
+
+
+
+#about-container{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+}
+
+#about-container > div{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-container > h2{
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 6.563rem;
+    text-align: center;
+    color: #fff;
+    width: 82.6rem;
+    height: 13.2rem;
+    
+}
+
+#about-scope{
+    width: 100%;
+    display: flex;
+    gap: 3.2rem;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#about-scope > h3{
+    width: 20.9rem;
+    height: 4rem;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 5.625rem;
+    text-align: left;
+    color: #fff;
+}
+
+#about-scope > p{
+    width: 54.5rem;
+    height: 10.1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 3rem;
+    text-align: left;
+    color: #fff;
+}
+
+
+#about-images{
+    position: relative;
+    width: 114.6rem; 
+    height: 46.2rem;
+    margin-bottom: 10rem;
+}
+
+
+#about-images > img:nth-child(1){
+    position: absolute;
+    top: -1.7rem;
+    right: 12.5rem;
+    width: 19.6rem;
+    height: 15.4rem; 
+}
+#about-images > img:nth-child(2){
+    position: absolute;
+    top: 5rem; 
+    left: 0rem; 
+    width: 114.6rem;
+    height: 46.2rem; 
+    z-index: 1; 
+}

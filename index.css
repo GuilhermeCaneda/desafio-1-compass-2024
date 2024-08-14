@@ -8,6 +8,6 @@
     border: none;
     text-decoration: none;
     font-size: 10px;
-    box-sizing: border-box; /* Garante que o padding não cause overflow */
+    box-sizing: border-box; 
     font-family: Poppins;
 }
