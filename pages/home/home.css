@@ -6,6 +6,81 @@ body{
 }
 
 
+
+section{
+    box-sizing: border-box; 
+    overflow: hidden; 
+}
+
+
+#front-container{
+    margin: 0 auto;
+    max-width: 114.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    height: auto;
+}
+#front-about{
+    margin-top: 15rem;
+    max-width: 52.7rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    z-index: 2;
+    /*padding aplicado nos próprios elementos*/
+}
+#front-about > h2{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3.104rem;
+    -webkit-text-stroke: 0.1rem #000000;
+    color: #E87D0E;
+    padding-bottom: 1.7rem;
+}
+#front-about > h1{
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 7.76rem;
+    color: #fff;
+    padding-bottom: 2.6rem;
+}
+#front-about > p{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 3.2rem;
+    color: #fff;
+    width: 52.7rem;
+    padding-bottom: 5.0rem;
+}
+#front-about > button{
+    width: 19.5rem;
+    height: 5.3rem;
+    border-radius: 4rem;
+    background: linear-gradient(92.48deg, #FA8305 2.08%, #FB9E3C 117.25%);
+
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    color: #fff;
+}
+
+#front-joystick{
+    width: 80.6rem;
+    height: 76.1rem;
+    position: relative;
+    z-index: 0;
+    top: 0;
+    right: -10%; 
+}
+
+
+
+
+
 #ctgames-container{
     width: 100%;
     display: flex;
