@@ -6,6 +6,169 @@ body{
 
 
 
+#front-container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 14.7rem 0;
+}
+
+#front-container > img{
+    width: 106rem;
+    height: 53.777rem;
+    padding-bottom: 6.223rem;
+}
+
+#front-scope{
+    max-width: 94.2rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+    padding-bottom: 9.3rem;
+}
+
+#front-scope > h6{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 3.336rem;
+    text-align: left;
+    color: #fff;
+    padding-bottom: 0.2rem;
+
+}
+
+#front-scope > h6 > span{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 3.336rem;
+    text-align: left;
+    color: #DC7000;
+}
+
+#front-scope > h1{
+    font-size: 3.3rem;
+    font-weight: 600;
+    line-height: 5.956rem;
+    text-align: center;
+    color: #fff;
+}
+
+#front-scope > p{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 3rem;
+    text-align: center;
+    color: #fff;
+}
+
+.front-horizontal-line{
+    border: 0.1rem solid #FFFFFF;
+    height: 10.2rem;
+    width: 0;
+}
+
+#front-contacts-layout{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 118.8rem;
+} 
+
+#front-contacts-socialmedia{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column nowrap;
+    gap: 1.8rem;
+}
+
+#front-contacts-socialmedia > h4{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 3.032rem;
+    text-align: left;
+    color: #fff;
+}
+
+#socialmedia-gallery{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.socialmedia-link{
+    background: #1C140F;
+    box-shadow: 0rem 0.4rem 1.4rem 0rem #00000026;
+    border-radius: 5rem;
+    width: 3.4rem;
+    height: 3.4rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.socialmedia-link > img{
+    width: 1.3rem;
+    height: 1.3rem;
+}                    
+
+#front-contacts-phone{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    
+    width: 22.1rem;
+}
+
+#front-contacts-phone > img{
+    width: 3rem;
+    height: 3rem;
+}
+
+#front-contacts-phone > h2{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3rem;
+    text-align: left;
+    color: #fff;
+}
+
+#front-contacts-loc{
+    display: flex;
+    gap: 1.9rem;
+    flex: row wrap;
+    align-items: flex-start;
+    justify-content: center;
+    width: 37.3rem;
+
+
+}
+
+#front-contacts-loc > img{
+    width: 2.9rem;
+    height: 2.9rem;
+}
+
+#front-contacts-loc > h2{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3rem;
+    text-align: left;
+    color: #fff;
+}
+
+
 
 
 
@@ -32,11 +195,13 @@ body{
 #form-orange-line{
     top: 0;
     right: 0;
+    overflow: hidden;
 }
 
 #form-white-line{
-    bottom: 0rem;
-    left: 0;
+    bottom: 0;
+    left: -7.5px;
+    overflow: hidden;
 }
 
 #form-layout{
@@ -48,6 +213,8 @@ body{
     padding-top: 5.4rem;
     padding-bottom: 6.3rem;
     gap: 7.9rem;
+    z-index: 3;
+    position: relative;
 }
 
 #form-scope{
@@ -161,6 +328,10 @@ form > button{
     vertical-align: top; 
     font-size: 1.5rem;
 }
+
+
+
+
 
 
 
