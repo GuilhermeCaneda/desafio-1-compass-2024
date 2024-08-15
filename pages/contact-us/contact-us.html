@@ -70,27 +70,27 @@
                     <div id="form-inputs">
                         <div class="form-input-duo">
                             <div class="form-input-card">
-                                <p>First Name</p>
-                                <input type="text" id="form-registration-inputfirstname">
+                                <label>First Name</label>
+                                <input type="text" name="first-name" id="form-registration-inputfirstname" required autocomplete="given-name">
                             </div>
                             
                             <div class="form-input-card">
-                                <p>Last Name</p>
-                                <input type="text" id="form-registration-inputlastname">
+                                <label>Last Name</label>
+                                <input type="text" name="last-name" id="form-registration-inputlastname" required autocomplete="family-name">
                             </div>
                         </div>
-        
+                
                         <div class="form-input-card">
-                            <p>Email Address</p>
-                            <input type="email" id="form-registration-inputemail">
+                            <label>Email Address</label>
+                            <input type="email" name="email" id="form-registration-inputemail" required autocomplete="email">
                         </div>
-                        
+                
                         <div class="form-input-card">
-                            <p>Message</p>
-                            <textarea id="form-registration-textareamessage"></textarea>
+                            <label>Message</label>
+                            <textarea name="message" id="form-registration-textareamessage" required autocomplete="off"></textarea>
                         </div>
                     </div>
-                    <button>Get in touch</button>
+                    <button type="submit">Get in touch</button>
                 </form>
             </div>
         </section>
@@ -112,5 +112,6 @@
             </div>
         </section>
 
+        <script type="module" src="contact-us.js"></script>
     </body>
 </html>

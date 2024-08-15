@@ -289,7 +289,7 @@ form > button{
     width: 100%;
 }
 
-.form-input-card > p{
+.form-input-card > label{
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 2.456rem;
