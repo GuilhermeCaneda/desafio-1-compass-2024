@@ -461,6 +461,6 @@ form > button{
     line-height: 1.95rem;
     text-align: center;
     color: #fff;
-
+    cursor: pointer;
     margin-right: 0.974rem;
 }

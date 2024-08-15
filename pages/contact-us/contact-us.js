@@ -1,10 +1,37 @@
-import { validateFormUser } from "../../scripts/validation.js";
+import { validateEmail, validateFormUser } from "../../scripts/validation.js";
 
 const inputFirstName = document.querySelector('#form-registration-inputfirstname');
 const inputLastName = document.querySelector('#form-registration-inputlastname');
 const inputEmail = document.querySelector('#form-registration-inputemail');
 const textAreaMessage = document.querySelector('#form-registration-textareamessage');
 const form = document.querySelector('#form-registration');
+
+const inputGroupInputLorem = document.querySelector('#loremipsum-inputgroup-input');
+const inputGroupButtonLorem = document.querySelector('#loremipsum-inputgroup-button');
+
+
+document.querySelectorAll('.socialmedia-link').forEach(link => {
+    link.addEventListener('click', function() {
+        const url = this.getAttribute('data-url');
+        window.open(url, '_blank');
+    });
+});
+
+
+
+
+inputGroupButtonLorem.addEventListener("click", (event) => {
+    event.preventDefault();
+    const inputEmailValue = inputGroupInputLorem.value.trim();
+    const emailValidation = validateEmail(inputEmailValue);
+
+    if(emailValidation.messages.length > 0){
+        console.log("Failed to send email: ", emailValidation.messages)
+    }else {
+        console.log("Email is valid and ready to send.");
+        inputGroupInputLorem.value = "";
+    }
+});
 
 form.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -17,15 +44,11 @@ form.addEventListener("submit", (event) => {
 
     if(userValidation.isValid){
         localStorage.setItem('formData', JSON.stringify(newUser));
-        //console.log("Added ", newUser);
-        console.log(userValidation)
         clearFields();
-    }else{
-        console.log(userValidation)
     }
+    console.log(userValidation)
     listData();
 });
-
 
 const listData = () => {
     let data = localStorage.getItem('formData');
