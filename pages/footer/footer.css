@@ -1,0 +1,146 @@
+
+footer{
+    background: #070707;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+
+#footer-layout{
+    padding-top: 7.9rem;
+    padding-bottom: 5.3rem;
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    width: 100%;
+    max-width: 121.9rem;
+    justify-content: space-between;
+    margin-left: -1rem; /*está no figma*/
+}
+
+#footer-logo{
+    width: 37.2rem;
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    gap: 1.5rem;
+}
+
+#footer-logo > h1{
+    font-size: 2.4rem;
+    font-weight: 800;
+    line-height: 3.684rem;
+    text-align: left;
+    color: #fff;
+}
+
+#footer-logo > p, h6{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    text-align: left;
+    color: #fff;
+}
+
+#footer-logo > p{
+    margin-bottom: 0.75rem;
+}
+
+#footer-about{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 15.8rem;
+}
+
+#footer-about > h2{
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 2.55rem;
+    color: #fff;
+}
+
+#footer-about > nav{}
+#footer-about > nav > ul{}
+#footer-about > nav > ul > li{
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.981rem;
+    text-align: left;
+    list-style: none;
+    cursor: pointer;
+}
+
+#footer-contacts{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 153px;
+    gap: 1.1rem;
+}
+
+#footer-contacts > h2{
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 2.55rem;
+    text-align: left;
+    color: #fff;
+}
+
+#footer-contacts > p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    text-align: left;
+    color: #fff;
+    width: 28.2rem;
+}
+
+#footer-socialmedia{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+#footer-socialmedia-links{
+    width: 3.4rem;
+    height: 3.4rem;
+    box-shadow: 0px 0.4rem 1.4rem 0px #00000026;
+    background: #FFFFFF;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#footer-socialmedia-links > img{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+#footer-copyright{
+    width: 100%;
+    margin: 0 auto;
+    padding: 2.9rem 0;
+    border-top: 0.08rem solid #D2D2D2;
+}
+
+#footer-copyright > p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2.478rem;
+    text-align: center;
+    color: #fff;
+}
