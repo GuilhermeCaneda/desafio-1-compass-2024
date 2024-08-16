@@ -1,0 +1,93 @@
+body{
+    background: linear-gradient(180.96deg, #39289F 0.82%, #422F9C 129.1%); /*PROVISORIO*/
+}
+
+
+header{
+    z-index: 2;
+    margin: 0 auto; 
+    max-width: 132.177rem;
+    max-height: 4.5rem;
+    padding: 7rem 0 0 0;
+
+    /*padding: 7rem 6.323rem 0 5.5rem;*/
+    display: flex;
+    flex: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#logo-container{
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#logo-container:hover{
+    transform: scale(1.25);
+}
+
+#logo-container > h1{
+    width: 8.2rem;
+    height: 4.5rem;
+    font-size: 2.9rem;
+    font-weight: 800;
+    line-height: 4.451rem;
+    color: #fff;
+}
+
+#nav-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3.659rem;
+}
+
+#nav-container > button{
+    width: 13.177rem;
+    height: 4.134rem;
+    border-radius: 0.6rem;
+    background: #FA9021;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.95rem;
+    color: #fff;
+
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+#nav-container > button:hover{
+    transform: scale(1.15);
+}
+
+#nav-container > nav{
+    width: auto;
+    height: auto;
+}
+#nav-container > nav > ul{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 8.8rem;
+    width: 50.541rem;
+    height: 2.42rem;
+}
+#nav-container > nav > ul > li{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: #fff;
+    list-style-type: none; 
+
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#nav-container > nav > ul > li:hover{
+    transform: scale(1.1);
+}
