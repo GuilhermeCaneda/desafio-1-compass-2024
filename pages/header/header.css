@@ -8,9 +8,8 @@ header{
     margin: 0 auto; 
     max-width: 132.177rem;
     max-height: 4.5rem;
-    padding: 7rem 0 0 0;
+    padding: 7rem 0;
 
-    /*padding: 7rem 6.323rem 0 5.5rem;*/
     display: flex;
     flex: row wrap;
     align-items: center;

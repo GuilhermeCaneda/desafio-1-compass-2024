@@ -1,15 +1,17 @@
 body{
     background: linear-gradient(180.96deg, #39289F 0.82%, #422F9C 129.1%);
-    display: flex;
-    flex-flow: column nowrap;
-    gap: 10.5rem;
 }
 
 
 
-section{
+#home-container{
     box-sizing: border-box; 
     overflow: hidden; 
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10.5rem;
+    padding-bottom: 10.5rem;
+    max-width: 100%;
 }
 
 
@@ -376,7 +378,7 @@ section{
     line-height: 1.95rem;
     text-align: center;
     color: #fff;
-
+    cursor: pointer;
     margin-right: 0.974rem;
 }
 
@@ -576,6 +578,7 @@ section{
     right: 12.5rem;
     width: 19.6rem;
     height: 15.4rem; 
+    z-index: 0;
 }
 #about-images > img:nth-child(2){
     position: absolute;

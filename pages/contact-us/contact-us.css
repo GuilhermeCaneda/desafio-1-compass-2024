@@ -4,14 +4,21 @@ body{
 
 
 
-
+#contactus-container{
+    max-width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 15rem;
+    padding-top: 7rem;
+    padding-bottom: 10rem;
+}
 
 #front-container{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    padding: 14.7rem 0;
 }
 
 #front-container > img{
@@ -343,8 +350,6 @@ form > button{
 
 
 #loremipsum-container{
-    padding-top: 15rem;
-    padding-bottom: 14.8rem;
     width: 100%;
     display: flex;
     flex-flow: column nowrap;
