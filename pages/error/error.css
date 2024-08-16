@@ -1,0 +1,63 @@
+body{
+    background: linear-gradient(176.32deg, #2211E7 -26.24%, #383837 96.98%);
+}
+
+#error-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#error-layout{
+    max-width: 70rem;
+    padding: 5rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    gap: 5rem;
+    background-color: rgb(36, 35, 35);
+}
+#error-layout > img{
+    width: 30rem;
+    height: 30rem;
+    background:#2211E7;
+    padding: 2rem;
+    border-radius: 50rem;
+}
+#error-layout > h1{
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 3.3rem;
+    font-weight: 600;
+    line-height: 5.956rem;
+}
+
+#error-layout > button{
+    width: 19.3rem;
+    height: 5.7rem;
+    border-radius: 1rem;
+    background: #DC7000;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 3.269rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.spin{
+    animation: animSpin 10s linear infinite; 
+}
+
+@keyframes animSpin{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
