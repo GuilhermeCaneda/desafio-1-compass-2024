@@ -113,7 +113,7 @@ footer{
     align-self: flex-end;
 }
 
-#footer-socialmedia-links{
+.footer-socialmedia-links{
     width: 3.4rem;
     height: 3.4rem;
     box-shadow: 0px 0.4rem 1.4rem 0px #00000026;
@@ -125,7 +125,7 @@ footer{
     cursor: pointer;
 }
 
-#footer-socialmedia-links > img{
+.footer-socialmedia-links > img{
     width: 1.2rem;
     height: 1.2rem;
 }
