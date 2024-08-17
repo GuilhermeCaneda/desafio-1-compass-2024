@@ -309,9 +309,6 @@ form > button{
 .form-input-card > input{
     width: 100%;
     height: 5.6rem;
-    top: 1527px;
-    left: 385px;
-    gap: 0px;
     border-radius: 0.9rem;
     border: 0.06px solid #CECECE;
     background: #FFFFFF12;
@@ -334,4 +331,95 @@ form > button{
     resize: none; 
     vertical-align: top; 
     font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    #front-contacts-socialmedia{
+        align-items: center;
+    }
+
+    .form-input-duo{
+        flex-flow: row wrap;
+    }
+
+    form{
+        max-width: 67.1rem;
+        width: 100%;
+        padding: 0 3%;
+    }
+
+    .form-input-card > label{
+        font-size: 1.7rem;
+    }
+    
+    .form-input-card > input{
+        width: 100%;
+        height: 7.5rem;
+        font-size: 1.7rem;
+    }
+    #form-registration-textareamessage{
+        font-size: 1.7rem;
+    }
+
+}
+
+
+
+@media (max-width: 1215px) {
+    #form-scope > p{
+        font-size: 1.65rem;
+    }
+    .front-horizontal-line{
+        display: none;
+    }
+
+    
+    #front-contacts-socialmedia > h4{
+        font-size: 2rem;
+    }
+    
+    
+    .socialmedia-link{
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+    
+    .socialmedia-link > img{
+        width: 2rem;
+        height: 2rem;
+    }    
+
+    #front-container > img{
+        width: 100%;
+        max-width: 106rem;
+        height: auto;
+    }
+    
+    #front-scope{
+        padding-left: 3%;
+        padding-right: 3%;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .front-horizontal-line:nth-child(4){
+        display: none;
+    }
+    
+    #front-contacts-layout{
+        justify-content: center;
+        max-width: 118.8rem;
+        width: 100%;
+        padding: 0 3%;
+        gap: 6.5rem 15%;
+        height: auto;
+    } 
 }
