@@ -86,6 +86,7 @@
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
+    gap: 1rem;
 }
 
 #loremipsum-inputgroup > input{
@@ -93,8 +94,9 @@
     font-weight: 300;
     line-height: 1.95rem;
 
+    width: 100%;
     margin-left: 2.055rem;
-    width: 15.51rem;
+    /*width: 15.51rem;*/
     height: 2rem;
 }
 
@@ -156,7 +158,6 @@
         border-radius: 0.8rem;
     }
     #loremipsum-inputgroup > input{
-        width: 100%;
         font-size: 1.6rem;
         height: 100%;
     }
