@@ -37,7 +37,7 @@ export const validateFirstName = (firstName) => {
         errors.push("First name must be at least 5 characters long.")
     }
 
-    return {field: "firstName", messages: errors}
+    return {field: "First Name", messages: errors}
 }
 
 export const validateLastName = (lastName) => {
@@ -49,18 +49,22 @@ export const validateLastName = (lastName) => {
         errors.push("Last name must be at least 5 characters long.")
     }
 
-    return {field: "lastName", messages: errors}
+    return {field: "Last Name", messages: errors}
 }
 
 export const validateEmail = (email) => {
     let errors = [];
+    
     if (email === "" || email == null) {
         errors.push("Email is required.");
-    } else if (!validateEmailRegex(email)) {  
+    }if (email.length < 15){
+        errors.push("Email must be at least 5 characters long.")
+    } 
+    if (!validateEmailRegex(email)) {  
         errors.push("Invalid email format.");
     }
 
-    return {field: "email", messages: errors}
+    return {field: "Email", messages: errors}
 }
 
 export const validateMessage = (message) => {
@@ -69,7 +73,7 @@ export const validateMessage = (message) => {
         errors.push("Message is required.");
     }
 
-    return {field: "message", messages: errors}
+    return {field: "Message", messages: errors}
 }
 
 export const validateEmailRegex = (email) => {

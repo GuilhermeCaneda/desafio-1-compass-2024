@@ -1,21 +1,18 @@
-import { validateEmail } from "../../scripts/validation.js";
+const listErrors = [
+    { field: 'PRIMEIRO ELEMENTO', errors: ["PRIMEIRA MENSAGEM", "string 2", "string 3"] },
+    { field: 'name2', errors: ["string 1", "string 2", ""] },
+    { field: 'name2', errors: ["string 1", "string 2", ""] },
+    { field: 'name2', errors: ["string 1", "string 2", ""] },
+    { field: 'name', errors: ["stringstringstringstringstringstringstringstringstringstringstringstringstringstringstringstringstringstring 1", "string 2", "string 3"] },
+    { field: 'name2', errors: ["string 1", "string 2", ""] },
+    { field: 'name2', errors: ["string 1", "string 2", ""] },
+    { field: 'name', errors: ["string 1", "string 2", "string 3"] },
+    { field: 'name2', errors: ["string 1", "string 2", ""] },
+    { field: 'ULTIMO ELEMENTO', errors: ["string 1", "string 2", "ULTIMA MENSAGEM"] },
+];
 
-const inputGroupInputLorem = document.querySelector('#loremipsum-inputgroup-input');
-const inputGroupButtonLorem = document.querySelector('#loremipsum-inputgroup-button');
-
-inputGroupButtonLorem.addEventListener("click", (event) => {
-    event.preventDefault();
-    const inputEmailValue = inputGroupInputLorem.value.trim();
-    const responseEmailValidation = validateEmail(inputEmailValue);
-    const resultEmailValidation = {isValid: responseEmailValidation.messages.length === 0, errors: [responseEmailValidation]};
-
-    if(responseEmailValidation.messages.length <= 0){
-      inputGroupInputLorem.value = "";
-    }
-
-    openModalError(resultEmailValidation.isValid, resultEmailValidation.errors)
-});
-
+openModalError(true, [])
+openModalError(false, listErrors)
 
 //-----------------------------------------------MODAL-----------------------------------------------
 
