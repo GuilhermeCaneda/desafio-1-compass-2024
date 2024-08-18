@@ -14,8 +14,7 @@ body{
     max-width: 100%;
 }
 
-
-#front-container{
+#home-container > #front-container{
     margin: 0 auto;
     max-width: 114.6rem;
     display: flex;
@@ -213,13 +212,13 @@ body{
     gap: 1.5rem;
 }
 
+
 #recentprojects-scope > h3{
     color: #fff;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 700;
-    line-height: 56.25px;
-    text-align: center;
-    
+    line-height: 5.625rem;
+    text-align: center;   
 }
 
 #recentprojects-scope > p{
@@ -228,8 +227,8 @@ body{
     line-height: 2.625rem;
     text-align: center;
     color: #FFFFFF;
-    width: 497px;
-    height: 57px;
+    width: 49.7rem;
+    height: 5.7rem;
 }
 
 #recentprojects-gallery{
@@ -254,133 +253,6 @@ body{
 #recentprojects-gallery > img:nth-child(5){width: 40.1rem;}
 #recentprojects-gallery > img:nth-child(6){width: 46.9rem;}
 
-
-
-
-
-
-
-
-
-#loremipsum-container{
-    width: 100%;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    gap: 7.4rem;
-}
-
-#loremipsum-scope{
-    width: 1170px;
-
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 3.2rem;
-}
-
-#loremipsum-scope > h3{
-    font-size: 3rem;
-    font-weight: 600;
-    line-height: 5.625rem;
-    color: #fff;
-}
-
-#loremipsum-scope > p{
-    font-size: 1.6rem;
-    font-weight: 400;
-    line-height: 3rem;
-    text-align: left;
-    width: 54.5rem;
-    height: 5.7rem;
-    color: #fff;
-}
-
-#loremipsum-card{
-    width: 117rem;
-    height: 18.9rem;
-    border-radius: 1.5rem;
-    background: #1C140F;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 4.232rem;
-}
-
-#loremipsum-desc{
-    width: 63.6rem;
-    height: 10.7rem;
-    display: flex;
-    flex-flow: column nowrap;
-    gap: 1rem;
-}
-
-#loremipsum-desc > h3{
-    font-family: Poppins;
-    font-size: 3rem;
-    font-weight: 500;
-    line-height: 4.5rem;
-    text-align: left;
-    color: #fff;
-}
-
-#loremipsum-desc > p{
-    font-family: Poppins;
-    font-size: 1.7rem;
-    font-weight: 400;
-    line-height: 2.55rem;
-    text-align: left;
-    color: #fff;
-    width: 53.6rem;
-    height: 5.2rem;
-}
-
-#loremipsum-inputgroup{
-    width: 38.568rem;
-    height: 4.8rem;
-    border-radius: 0.8rem;
-    opacity: 0px;
-    background-color: #fff;
-
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#loremipsum-inputgroup > input{
-    font-size: 1.3rem;
-    font-weight: 300;
-    line-height: 1.95rem;
-
-    margin-left: 2.055rem;
-    width: 15.51rem;
-    height: 2rem;
-}
-
-#loremipsum-inputgroup > input:focus{
-    outline: none;
-    border: none;
-}
-
-
-#loremipsum-inputgroup > button{
-    width: 10.5rem;
-    height: 3.7rem;
-    border-radius: 0.8rem;
-    background: #DC7000;
-
-    font-size: 1.3rem;
-    font-weight: 400;
-    line-height: 1.95rem;
-    text-align: center;
-    color: #fff;
-    cursor: pointer;
-    margin-right: 0.974rem;
-}
 
 
 
@@ -587,4 +459,168 @@ body{
     width: 114.6rem;
     height: 46.2rem; 
     z-index: 1; 
+}
+
+
+@media (max-width: 767px) {
+    #recentprojects-scope{
+        padding: 0 3%;
+    }
+    
+    #recentprojects-scope > h3{
+        font-size: 3.2rem;
+        width: auto;
+        height: auto;
+    }
+    
+    #recentprojects-scope > p{
+        font-size: 1.75rem;
+        width: auto;
+        height: auto;
+    }
+    
+    
+
+
+
+    #about-container > div{
+        gap: 5rem;
+    }
+    #about-images > img:nth-child(1){
+        right: 30rem;
+    }
+
+
+
+
+
+
+    #ctgames-scope {
+        width: 100%;
+        height: auto;
+        padding: 0 6.5%;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+
+
+
+    
+
+    #home-container > #front-container{
+        height: auto;
+        max-width: 100%;
+    }
+
+    #front-about > p{
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (max-width: 1215px) {
+    #plataform-games-scope{
+        width: 100%;
+        padding: 0 1%;
+    }
+    
+    #plataform-games-scope > h3{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #plataform-games-scope > p{
+        max-width: 100%;
+        height: auto;
+    }
+
+
+
+
+
+
+    #about-container > h2{
+        width: 100%;
+        height: auto;
+        padding: 0 3.5%;
+    }
+    
+    #about-container > div{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    
+    #about-scope{
+        max-width: 100%;
+        padding: 0 5.75%;
+    }
+
+    #about-scope > h3{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #about-scope > p{
+        max-width: 100%;
+        height: auto;
+    }
+
+
+
+
+
+
+    #ctgames-scope {
+        width: 100%;
+        height: auto;
+        padding: 0 6.5%;
+    }
+
+
+
+
+
+
+
+
+
+    #home-container > #front-container{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-flow: row wrap;
+        height: auto;
+        padding: 0 7%;
+    }
+
+    #front-about{
+        margin-top: 15rem;
+        max-width: 52.7rem;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: flex-start;
+        position: relative;
+        z-index: 2;
+    }
+
+    #front-about > h1{
+        font-size: 5rem;
+        font-weight: 700;
+        line-height: 7.76rem;
+        color: #fff;
+        padding-bottom: 2.6rem;
+    }
+    #front-about > p{
+        max-width: 52.7rem;
+    }
+    
+    #front-joystick{
+        justify-self: flex-end;
+        margin-top: -80rem;
+        top: 0;
+        opacity: 0.2;
+    }
 }
