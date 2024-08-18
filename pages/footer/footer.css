@@ -36,6 +36,12 @@ footer{
     line-height: 3.684rem;
     text-align: left;
     color: #fff;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+#footer-logo > h1:hover{
+    transform: scale(1.15);
 }
 
 #footer-logo > p, h6{
@@ -67,7 +73,14 @@ footer{
     color: #fff;
 }
 
-#footer-about > nav > ul > li{
+#footer-about > nav{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#footer-about > nav > a{
     color: #fff;
     font-size: 1.6rem;
     font-weight: 400;
@@ -79,7 +92,7 @@ footer{
 }
 
 
-#footer-about > nav > ul > li:hover {
+#footer-about > nav > a:hover {
     transform: scale(1.15);
 }
 
@@ -203,14 +216,11 @@ footer{
         align-self: center;
     }
     #footer-about > nav{
-        width: 100%;
-        height: auto;
-    }
-    #footer-about > nav > ul{
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
         width: 100%;
+        height: auto;
     }
     #footer-contacts{
         display: flex;
