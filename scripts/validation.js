@@ -54,9 +54,13 @@ export const validateLastName = (lastName) => {
 
 export const validateEmail = (email) => {
     let errors = [];
+    
     if (email === "" || email == null) {
         errors.push("Email is required.");
-    } else if (!validateEmailRegex(email)) {  
+    }if (email.length < 15){
+        errors.push("Email must be at least 5 characters long.")
+    } 
+    if (!validateEmailRegex(email)) {  
         errors.push("Invalid email format.");
     }
 

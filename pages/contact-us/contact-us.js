@@ -20,14 +20,14 @@ document.querySelectorAll('.socialmedia-link').forEach(link => {
 inputGroupButtonLorem.addEventListener("click", (event) => {
     event.preventDefault();
     const inputEmailValue = inputGroupInputLorem.value.trim();
-    const emailValidation = validateEmail(inputEmailValue);
+    const responseEmailValidation = validateEmail(inputEmailValue);
+    const resultEmailValidation = {isValid: responseEmailValidation.messages.length === 0, errors: [responseEmailValidation]};
 
-    if(emailValidation.messages.length > 0){
-        console.log("Failed to send email: ", emailValidation.messages)
-    }else {
-        console.log("Email is valid and ready to send.");
-        inputGroupInputLorem.value = "";
+    if(responseEmailValidation.messages.length <= 0){
+      inputGroupInputLorem.value = "";
     }
+
+    openModalError(resultEmailValidation.isValid, resultEmailValidation.errors)
 });
 
 const listData = () => {
