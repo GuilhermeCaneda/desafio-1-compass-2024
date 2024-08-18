@@ -121,6 +121,10 @@ body{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: all 0.3s ease; 
+}
+.socialmedia-link:hover{    
+    transform: scale(1.15);
 }
 
 .socialmedia-link > img{

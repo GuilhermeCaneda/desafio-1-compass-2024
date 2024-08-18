@@ -10,6 +10,15 @@
     font-family: Poppins;
 }
 
+button{
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.15);
+}
+
 @media (min-width: 0px) and (max-width: 767px) {
   html{
     font-size: 2vw; /*5 estava ok*/
@@ -27,13 +36,4 @@
   html{
     font-size: 10px;
   }
-}
-
-button{
-  transition: 0.3s ease;
-  cursor: pointer;
-}
-
-button:hover {
-  transform: scale(1.15);
 }

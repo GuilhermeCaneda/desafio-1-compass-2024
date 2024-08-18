@@ -168,3 +168,14 @@
         border-radius: 0.8rem;
     }
 } 
+
+
+
+.hover-effect{
+    transition: all 0.3s ease; /* Adiciona uma transição suave */
+    cursor: pointer;
+}
+
+.hover-effect:hover {
+    transform: scale(0.9); /* Exemplo de efeito de escala */
+}
