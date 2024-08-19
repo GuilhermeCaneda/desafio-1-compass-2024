@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-    border: none;
-    text-decoration: none;
-    box-sizing: border-box; 
-    font-family: Poppins;
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: Poppins;
 }
 
-button{
+button {
   transition: 0.3s ease;
   cursor: pointer;
 }
@@ -20,20 +20,22 @@ button:hover {
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
-  html{
+  html {
     font-size: 2vw; /*5 estava ok*/
   }
-} 
+}
 
 @media (min-width: 768px) and (max-width: 1215px) {
-  html{/*
+  html {
+    /*
     font-size: 0.81vw; 5 estava ok*/
     font-size: 1.41vw; /*5 estava ok*/
   }
-} 
+}
 
-@media (min-width: 1216px) { /*and (max-width: 1920px) */
-  html{
+@media (min-width: 1216px) {
+  /*and (max-width: 1920px) */
+  html {
     font-size: 10px;
   }
 }

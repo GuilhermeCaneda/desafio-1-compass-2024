@@ -1,429 +1,400 @@
-body{
-    background: linear-gradient(176.32deg, #2211E7 -26.24%, #383837 96.98%);
+body {
+  background: linear-gradient(176.32deg, #2211e7 -26.24%, #383837 96.98%);
 }
 
-
-
-#contactus-container{
-    max-width: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-flow: column wrap;
-    gap: 15rem;
-    padding-top: 7rem;
-    padding-bottom: 10rem;
+#contactus-container {
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 15rem;
+  padding-top: 7rem;
+  padding-bottom: 10rem;
 }
 
-#contactus-container > #front-container{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
+#contactus-container > #front-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-#front-container > img{
-    width: 106rem;
-    height: 53.777rem;
-    padding-bottom: 6.223rem;
+#front-container > img {
+  width: 106rem;
+  height: 53.777rem;
+  padding-bottom: 6.223rem;
 }
 
-#front-scope{
-    max-width: 94.2rem;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 1.3rem;
-    padding-bottom: 9.3rem;
+#front-scope {
+  max-width: 94.2rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3rem;
+  padding-bottom: 9.3rem;
 }
 
-#front-scope > h6{
-    font-size: 1.6rem;
-    font-weight: 400;
-    line-height: 3.336rem;
-    text-align: left;
-    color: #fff;
-    padding-bottom: 0.2rem;
-
+#front-scope > h6 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3.336rem;
+  text-align: left;
+  color: #fff;
+  padding-bottom: 0.2rem;
 }
 
-#front-scope > h6 > span{
-    font-size: 1.6rem;
-    font-weight: 400;
-    line-height: 3.336rem;
-    text-align: left;
-    color: #DC7000;
+#front-scope > h6 > span {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3.336rem;
+  text-align: left;
+  color: #dc7000;
 }
 
-#front-scope > h1{
-    font-size: 3.3rem;
-    font-weight: 600;
-    line-height: 5.956rem;
-    text-align: center;
-    color: #fff;
+#front-scope > h1 {
+  font-size: 3.3rem;
+  font-weight: 600;
+  line-height: 5.956rem;
+  text-align: center;
+  color: #fff;
 }
 
-#front-scope > p{
-    font-size: 1.6rem;
-    font-weight: 500;
-    line-height: 3rem;
-    text-align: center;
-    color: #fff;
+#front-scope > p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 3rem;
+  text-align: center;
+  color: #fff;
 }
 
-.front-horizontal-line{
-    border: 0.1rem solid #FFFFFF;
-    height: 10.2rem;
-    width: 0;
+.front-horizontal-line {
+  border: 0.1rem solid #ffffff;
+  height: 10.2rem;
+  width: 0;
 }
 
-#front-contacts-layout{
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-between;
-    width: 118.8rem;
-} 
-
-#front-contacts-socialmedia{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-flow: column nowrap;
-    gap: 1.8rem;
+#front-contacts-layout {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 118.8rem;
 }
 
-#front-contacts-socialmedia > h4{
-    font-size: 1.6rem;
-    font-weight: 400;
-    line-height: 3.032rem;
-    text-align: left;
-    color: #fff;
+#front-contacts-socialmedia {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: column nowrap;
+  gap: 1.8rem;
 }
 
-#socialmedia-gallery{
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 1.6rem;
+#front-contacts-socialmedia > h4 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3.032rem;
+  text-align: left;
+  color: #fff;
 }
 
-.socialmedia-link{
-    background: #1C140F;
-    box-shadow: 0rem 0.4rem 1.4rem 0rem #00000026;
-    border-radius: 5rem;
-    width: 3.4rem;
-    height: 3.4rem;
-    box-sizing: border-box;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all 0.3s ease; 
-}
-.socialmedia-link:hover{    
-    transform: scale(1.15);
+#socialmedia-gallery {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
 }
 
-.socialmedia-link > img{
-    width: 1.3rem;
-    height: 1.3rem;
-}                    
-
-#front-contacts-phone{
-    display: flex;
-    flex-flow: row wrap;
-    gap: 2.5rem;
-    align-items: center;
-    justify-content: center;
-    
-    width: 22.1rem;
+.socialmedia-link {
+  background: #1c140f;
+  box-shadow: 0rem 0.4rem 1.4rem 0rem #00000026;
+  border-radius: 5rem;
+  width: 3.4rem;
+  height: 3.4rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.socialmedia-link:hover {
+  transform: scale(1.15);
 }
 
-#front-contacts-phone > img{
-    width: 3rem;
-    height: 3rem;
+.socialmedia-link > img {
+  width: 1.3rem;
+  height: 1.3rem;
 }
 
-#front-contacts-phone > h2{
-    font-size: 2rem;
-    font-weight: 300;
-    line-height: 3rem;
-    text-align: left;
-    color: #fff;
+#front-contacts-phone {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2.5rem;
+  align-items: center;
+  justify-content: center;
+
+  width: 22.1rem;
 }
 
-#front-contacts-loc{
-    display: flex;
-    gap: 1.9rem;
-    flex: row wrap;
-    align-items: flex-start;
-    justify-content: center;
-    width: 37.3rem;
-
-
+#front-contacts-phone > img {
+  width: 3rem;
+  height: 3rem;
 }
 
-#front-contacts-loc > img{
-    width: 2.9rem;
-    height: 2.9rem;
+#front-contacts-phone > h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 3rem;
+  text-align: left;
+  color: #fff;
 }
 
-#front-contacts-loc > h2{
-    font-size: 2rem;
-    font-weight: 300;
-    line-height: 3rem;
-    text-align: left;
-    color: #fff;
+#front-contacts-loc {
+  display: flex;
+  gap: 1.9rem;
+  flex: row wrap;
+  align-items: flex-start;
+  justify-content: center;
+  width: 37.3rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-#form-registration-container{
-    width: 100%;
-    overflow: hidden;
-    background: #1C140F;
-    position: relative;
-    z-index: 1;
+#front-contacts-loc > img {
+  width: 2.9rem;
+  height: 2.9rem;
 }
 
-#form-registration-container > img{
-    z-index: 0;
-    position: absolute;
+#front-contacts-loc > h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 3rem;
+  text-align: left;
+  color: #fff;
 }
 
-#form-orange-line{
-    top: 0;
-    right: 0;
-    overflow: hidden;
+#form-registration-container {
+  width: 100%;
+  overflow: hidden;
+  background: #1c140f;
+  position: relative;
+  z-index: 1;
 }
 
-#form-white-line{
-    bottom: 0;
-    left: -7.5px;
-    overflow: hidden;
+#form-registration-container > img {
+  z-index: 0;
+  position: absolute;
 }
 
-#form-layout{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding-top: 5.4rem;
-    padding-bottom: 6.3rem;
-    gap: 7.9rem;
-    z-index: 3;
-    position: relative;
+#form-orange-line {
+  top: 0;
+  right: 0;
+  overflow: hidden;
 }
 
-#form-scope{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    max-width: 43.2rem;
+#form-white-line {
+  bottom: 0;
+  left: -7.5px;
+  overflow: hidden;
 }
 
-#form-scope > h3{
-    font-size: 3rem;
-    font-weight: 400;
-    line-height: 5.685rem;
-    color: #fff;
+#form-layout {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 5.4rem;
+  padding-bottom: 6.3rem;
+  gap: 7.9rem;
+  z-index: 3;
+  position: relative;
 }
 
-#form-scope > p{
-    font-size: 1.3rem;
-    font-weight: 500;
-    line-height: 2.463rem;
-    text-align: center;
-    color: #fff;
+#form-scope {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 43.2rem;
 }
 
-form{
-    width: 67.1rem;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center; /*VOLTAR AQUI*/
-    gap: 5.1rem;
+#form-scope > h3 {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 5.685rem;
+  color: #fff;
 }
 
-form > button{
-    width: 19.3rem;
-    height: 5.7rem;
-    border-radius: 1rem;
-    font-size: 1.6rem;
-    font-weight: 400;
-    line-height: 3.269rem;
-    background: #DC7000;
-    color: #fff;
-    cursor: pointer;
-    align-self: flex-end;
+#form-scope > p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 2.463rem;
+  text-align: center;
+  color: #fff;
 }
 
-#form-inputs{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    width: 100%;
+form {
+  width: 67.1rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center; /*VOLTAR AQUI*/
+  gap: 5.1rem;
 }
 
-.form-input-duo{
-    display: flex;
-    flex-flow: row nowrap;
-    gap: 2.7rem;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+form > button {
+  width: 19.3rem;
+  height: 5.7rem;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3.269rem;
+  background: #dc7000;
+  color: #fff;
+  cursor: pointer;
+  align-self: flex-end;
 }
 
-.form-input-card{
-    display: flex;
-    flex-flow: column wrap;
-    gap: 0.6rem;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
+#form-inputs {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
 }
 
-.form-input-card > label{
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 2.456rem;
-    letter-spacing: -0.030000001192092896rem;
-    text-align: left;
-    color: #4F4F4F;
-    height: 2.5rem;
+.form-input-duo {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 2.7rem;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
-.form-input-card > input{
-    width: 100%;
-    height: 5.6rem;
-    border-radius: 0.9rem;
-    border: 0.06px solid #CECECE;
-    background: #FFFFFF12;
-    color: #fff;
-    box-sizing: border-box;
-    padding:  0 2rem;
+.form-input-card {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 0.6rem;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
 
-    font-size: 1.5rem;
+.form-input-card > label {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 2.456rem;
+  letter-spacing: -0.030000001192092896rem;
+  text-align: left;
+  color: #4f4f4f;
+  height: 2.5rem;
+}
+
+.form-input-card > input {
+  width: 100%;
+  height: 5.6rem;
+  border-radius: 0.9rem;
+  border: 0.06px solid #cecece;
+  background: #ffffff12;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 0 2rem;
+
+  font-size: 1.5rem;
 }
 
 #form-registration-textareamessage {
-    height: 26rem;
-    width: 100%; 
-    padding: 1rem 2rem; 
-    box-sizing: border-box;
-    background: #FFFFFF12;
-    color: #fff;
-    border: 0.06px solid #CECECE;
-    border-radius: 0.9rem;
-    resize: none; 
-    vertical-align: top; 
-    font-size: 1.5rem;
+  height: 26rem;
+  width: 100%;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  background: #ffffff12;
+  color: #fff;
+  border: 0.06px solid #cecece;
+  border-radius: 0.9rem;
+  resize: none;
+  vertical-align: top;
+  font-size: 1.5rem;
 }
-
-
-
-
-
-
-
-
 
 @media (max-width: 767px) {
-    #front-contacts-socialmedia{
-        align-items: center;
-    }
+  #front-contacts-socialmedia {
+    align-items: center;
+  }
 
-    .form-input-duo{
-        flex-flow: row wrap;
-    }
+  .form-input-duo {
+    flex-flow: row wrap;
+  }
 
-    form{
-        max-width: 67.1rem;
-        width: 100%;
-        padding: 0 3%;
-    }
+  form {
+    max-width: 67.1rem;
+    width: 100%;
+    padding: 0 3%;
+  }
 
-    .form-input-card > label{
-        font-size: 1.7rem;
-    }
-    
-    .form-input-card > input{
-        width: 100%;
-        height: 7.5rem;
-        font-size: 1.7rem;
-    }
-    #form-registration-textareamessage{
-        font-size: 1.7rem;
-    }
+  .form-input-card > label {
+    font-size: 1.7rem;
+  }
 
+  .form-input-card > input {
+    width: 100%;
+    height: 7.5rem;
+    font-size: 1.7rem;
+  }
+  #form-registration-textareamessage {
+    font-size: 1.7rem;
+  }
 }
 
-
-
 @media (max-width: 1215px) {
-    #form-scope > p{
-        font-size: 1.65rem;
-    }
-    .front-horizontal-line{
-        display: none;
-    }
+  #form-scope > p {
+    font-size: 1.65rem;
+  }
+  .front-horizontal-line {
+    display: none;
+  }
 
-    
-    #front-contacts-socialmedia > h4{
-        font-size: 2rem;
-    }
-    
-    
-    .socialmedia-link{
-        width: 5.5rem;
-        height: 5.5rem;
-    }
-    
-    .socialmedia-link > img{
-        width: 2rem;
-        height: 2rem;
-    }    
+  #front-contacts-socialmedia > h4 {
+    font-size: 2rem;
+  }
 
-    #front-container > img{
-        width: 100%;
-        max-width: 106rem;
-        height: auto;
-    }
-    
-    #front-scope{
-        padding-left: 3%;
-        padding-right: 3%;
-        max-width: 100%;
-        height: auto;
-    }
-    
-    .front-horizontal-line:nth-child(4){
-        display: none;
-    }
-    
-    #front-contacts-layout{
-        justify-content: center;
-        max-width: 118.8rem;
-        width: 100%;
-        padding: 0 3%;
-        gap: 6.5rem 15%;
-        height: auto;
-    } 
+  .socialmedia-link {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+
+  .socialmedia-link > img {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  #front-container > img {
+    width: 100%;
+    max-width: 106rem;
+    height: auto;
+  }
+
+  #front-scope {
+    padding-left: 3%;
+    padding-right: 3%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .front-horizontal-line:nth-child(4) {
+    display: none;
+  }
+
+  #front-contacts-layout {
+    justify-content: center;
+    max-width: 118.8rem;
+    width: 100%;
+    padding: 0 3%;
+    gap: 6.5rem 15%;
+    height: auto;
+  }
 }
