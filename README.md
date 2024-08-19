@@ -21,4 +21,4 @@ cd desafio-1-compass-2024
 ```
 
 Open the **index.html** file in the browser:
-- Drag the **index.html** file to the browser or use an extension like [*Live Server*](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VSCode.
+- Use an extension like [*Live Server*](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VSCode to run the project.
