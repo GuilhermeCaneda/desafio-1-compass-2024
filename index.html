@@ -1,14 +1,367 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <script src="" async defer></script>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="global.css" />
+
+    <link rel="stylesheet" href="popup/popup.css" />
+    <link rel="stylesheet" href="pages/header/header.css" />
+    <link rel="stylesheet" href="pages/footer/footer.css" />
+    <link rel="stylesheet" href="pages/home/home.css" />
+  </head>
+  <body>
+    <header>
+      <div id="logo-container" onclick="router('/')">
+        <h1>LOGO</h1>
+      </div>
+
+      <div id="nav-container">
+        <nav>
+          <a href="/">Home</a>
+          <a href="/pages/error/error.html">About us</a>
+          <a href="/pages/error/error.html">Portfolio</a>
+          <a href="/pages/error/error.html">News</a>
+        </nav>
+        <button onclick="router('/pages/contact-us/contact-us.html')">
+          Contact Us
+        </button>
+      </div>
+    </header>
+
+    <div id="modal" class="modal">
+      <div class="modal-container">
+        <h2>
+          Form submission failed. Please fill out all required fields correctly.
+        </h2>
+
+        <div class="modal-errors">
+          <div class="modal-errors-card">
+            <h3 class="modal-errors-fieldname"></h3>
+            <div class="modal-errors-messages">
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <button class="cancel-modal">Voltar</button>
+      </div>
+    </div>
+
+    <main id="home-container">
+      <section id="front-container">
+        <div id="front-about">
+          <h2>Proved By prodesigner</h2>
+          <h1>Work that we produce for our clients</h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard.
+          </p>
+          <button>Get more details</button>
+        </div>
+
+        <img
+          src="assets/home/front/img-joystick.png"
+          alt="img-joystick"
+          id="front-joystick"
+        />
+      </section>
+
+      <section id="ctgames-container">
+        <div id="ctgames-scope">
+          <h3>Currently Trending Games</h3>
+          <button>SEE ALL</button>
+        </div>
+
+        <div id="ctgames-gallery">
+          <div class="ctgames-cards hover-effect">
+            <img src="assets/home/ct-games/img-game1.png" alt="" />
+            <div>
+              <img src="assets/home/ct-games/icon-fire.svg" alt="" />
+              <p>40 Followers</p>
+            </div>
+          </div>
+
+          <div class="ctgames-cards hover-effect">
+            <img src="assets/home/ct-games/img-game2.png" alt="" />
+            <div>
+              <img src="assets/home/ct-games/icon-fire.svg" alt="" />
+              <p>40 Followers</p>
+            </div>
+          </div>
+
+          <div class="ctgames-cards hover-effect">
+            <img src="assets/home/ct-games/img-game3.png" alt="" />
+            <div>
+              <img src="assets/home/ct-games/icon-fire.svg" alt="" />
+              <p>40 Followers</p>
+            </div>
+          </div>
+
+          <div class="ctgames-cards hover-effect">
+            <img src="assets/home/ct-games/img-game4.png" alt="" />
+            <div>
+              <img src="assets/home/ct-games/icon-fire.svg" alt="" />
+              <p>40 Followers</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about-container">
+        <h2>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </h2>
+        <div>
+          <div id="about-scope">
+            <h3>Lorem Ipsum</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s,
+            </p>
+          </div>
+          <div id="about-images">
+            <img src="assets/home/about/icon-points.svg" alt="" />
+            <img src="assets/home/about/img-spiderman.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section id="plataform-games-container">
+        <div id="plataform-games-scope">
+          <h3>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s,
+          </p>
+        </div>
+        <div id="plataform-games-gallery">
+          <div class="plataform-games-cards hover-effect">
+            <div>
+              <img
+                src="assets/home/plataform-games/icon-mobile.svg"
+                alt=""
+              />
+            </div>
+            <p>Mobile Game Development</p>
+            <img
+              src="assets/home/plataform-games/icon-arrow.svg"
+              alt=""
+            />
+          </div>
+
+          <div class="plataform-games-cards hover-effect">
+            <div>
+              <img src="assets/home/plataform-games/icon-pc.svg" alt="" />
+            </div>
+            <p>PC Game Development</p>
+            <img
+              src="assets/home/plataform-games/icon-arrow.svg"
+              alt=""
+            />
+          </div>
+
+          <div class="plataform-games-cards hover-effect">
+            <div>
+              <img
+                src="assets/home/plataform-games/icon-ps4.svg"
+                alt=""
+              />
+            </div>
+            <p>PS4 Game Development</p>
+            <img
+              src="assets/home/plataform-games/icon-arrow.svg"
+              alt=""
+            />
+          </div>
+
+          <div class="plataform-games-cards hover-effect">
+            <div>
+              <img
+                src="assets/home/plataform-games/icon-glasses.svg"
+                alt=""
+              />
+            </div>
+            <p>AR/VR Solutions</p>
+            <img
+              src="assets/home/plataform-games/icon-arrow.svg"
+              alt=""
+            />
+          </div>
+
+          <div class="plataform-games-cards hover-effect">
+            <div>
+              <img
+                src="assets/home/plataform-games/icon-desktop.svg"
+                alt=""
+              />
+            </div>
+            <p>AR/ VR design</p>
+            <img
+              src="assets/home/plataform-games/icon-arrow.svg"
+              alt=""
+            />
+          </div>
+
+          <div class="plataform-games-cards hover-effect">
+            <div>
+              <img src="assets/home/plataform-games/icon-3d.svg" alt="" />
+            </div>
+            <p>3D Modelings</p>
+            <img
+              src="assets/home/plataform-games/icon-arrow.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="recentprojects-container">
+        <div id="recentprojects-scope">
+          <h3>Our Recent Projects</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+        <div id="recentprojects-gallery">
+          <img
+            class="hover-effect"
+            src="assets/home/recentprojects/img1.png"
+            alt=""
+          />
+          <img
+            class="hover-effect"
+            src="assets/home/recentprojects/img2.png"
+            alt=""
+          />
+          <img
+            class="hover-effect"
+            src="assets/home/recentprojects/img3.png"
+            alt=""
+          />
+          <img
+            class="hover-effect"
+            src="assets/home/recentprojects/img4.png"
+            alt=""
+          />
+          <img
+            class="hover-effect"
+            src="assets/home/recentprojects/img5.png"
+            alt=""
+          />
+          <img
+            class="hover-effect"
+            src="assets/home/recentprojects/img6.png"
+            alt=""
+          />
+        </div>
+        <button>SEE ALL</button>
+      </section>
+
+      <section id="loremipsum-container">
+        <div id="loremipsum-scope">
+          <h3>Lorem Ipsum</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+        <div id="loremipsum-card">
+          <div id="loremipsum-desc">
+            <h3>Stay in the loop</h3>
+            <p>
+              Subscribe to receive the latest news and updates about TDA. We
+              promise not to spam you!
+            </p>
+          </div>
+          <div id="loremipsum-inputgroup">
+            <input
+              type="email"
+              name="email"
+              id="loremipsum-inputgroup-input"
+              placeholder="Enter email address"
+            />
+            <button id="loremipsum-inputgroup-button">Continue</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div id="footer-layout">
+        <div id="footer-logo">
+          <h1 onclick="router('/')">LOGO</h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+          <h6>@Logo</h6>
+        </div>
+
+        <div id="footer-about">
+          <h2>About us</h2>
+          <nav>
+            <a href="/pages/error/error.html">Zeux</a>
+            <a href="/pages/error/error.html">Portfolio</a>
+            <a href="/pages/error/error.html">Careers</a>
+            <a href="/pages/contact-us/contact-us.html">Contact us</a>
+          </nav>
+        </div>
+
+        <div id="footer-contacts">
+          <h2>Contact us</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+          <p>+908 89097 890</p>
+        </div>
+
+        <div id="footer-socialmedia">
+          <div
+            class="footer-socialmedia-links"
+            data-url="https://www.facebook.com"
+          >
+            <img src="assets/footer/icon-facebook.svg" alt="" />
+          </div>
+          <div
+            class="footer-socialmedia-links"
+            data-url="https://www.instagram.com"
+          >
+            <img src="assets/footer/icon-instagram.svg" alt="" />
+          </div>
+          <div
+            class="footer-socialmedia-links"
+            data-url="https://www.twitter.com"
+          >
+            <img src="assets/footer/icon-twitter.svg" alt="" />
+          </div>
+          <div
+            class="footer-socialmedia-links"
+            data-url="https://www.linkedin.com"
+          >
+            <img src="assets/footer/icon-linkedin.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div id="footer-copyright">
+        <p>Copyright ® 2022 prodesigner All rights Rcerved</p>
+      </div>
+    </footer>
+
+    <script src="pages/footer/footer.js"></script>
+    <script type="module" src="pages/home/home.js"></script>
+    <script src="scripts/router.js"></script>
+  </body>
 </html>

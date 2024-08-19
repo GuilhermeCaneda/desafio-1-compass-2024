@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="../../index.css" />
+  </head>
+  <body>
+    <header>
+      <div id="logo-container" onclick="router('/')">
+        <h1>LOGO</h1>
+      </div>
+
+      <div id="nav-container">
+        <nav>
+          <a href="/">Home</a>
+          <a href="../error/error.html">About us</a>
+          <a href="../error/error.html">Portfolio</a>
+          <a href="../error/error.html">News</a>
+        </nav>
+        <button onclick="router('/pages/contact-us/contact-us.html')">
+          Contact Us
+        </button>
+      </div>
+    </header>
+
+    <script src="../../scripts/router.js"></script>
+  </body>
+</html>

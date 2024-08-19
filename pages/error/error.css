@@ -1,0 +1,79 @@
+body {
+}
+
+#error-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  max-height: 100vh;
+  background-image: url("../../assets/error/img-bg.png"); /* Caminho da imagem */
+  background-size: cover; /* Faz a imagem cobrir toda a área */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita repetição da imagem */
+}
+
+#error-layout {
+  max-width: 55rem;
+  padding: 5rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  gap: 5rem;
+  background: linear-gradient(
+    176.32deg,
+    rgba(34, 17, 231, 0.3) -26.24%,
+    rgba(56, 56, 55, 0.3) 96.98%
+  );
+  opacity: 0.75;
+}
+#error-layout > img {
+  width: 20rem;
+  height: 20rem;
+  padding: 1rem;
+  border-radius: 50rem;
+}
+#error-layout > h1 {
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 5.956rem;
+}
+
+#error-layout > button {
+  width: 19.3rem;
+  height: 5.7rem;
+  border-radius: 1rem;
+  background: #dc7000;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3.269rem;
+  color: #fff;
+}
+
+.spin {
+  animation: animSpin 10s linear infinite;
+}
+
+@keyframes animSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 767px) {
+  #error-layout {
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 1215px) {
+}
