@@ -57,8 +57,8 @@ export const validateEmail = (email) => {
   if (email === "" || email == null) {
     errors.push("Email is required.");
   }
-  if (email.length < 15) {
-    errors.push("Email must be at least 5 characters long.");
+  if (email.length < 6) {
+    errors.push("Email must be at least 6 characters long.");
   }
   if (!validateEmailRegex(email)) {
     errors.push("Invalid email format.");
